@@ -1,0 +1,129 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,pink,lightblue);
+}
+
+header {
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header h1 {
+    font-size: 28px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+main {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(to right,lightblue,lightpink);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.course {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: linear-gradient(to right,lightblue,lightpink);
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.course:hover {
+    background: linear-gradient(to right,lightblue,pink);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.course:hover img{
+    max-width: 70%;
+    height: auto;
+}
+
+.course-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.course-details {
+    flex: 2;
+}
+
+.course img {
+    max-width: 60%;
+    height: auto;
+    transition: max-width 750ms;
+}
+
+.course img:hover {
+    max-width: 70%;
+    height: auto;
+}
+    
+
+.course h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.course p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.course a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 22px;
+    transition: color 750ms;
+}
+
+.course a:hover {
+    color: black;
+    background: linear-gradient(to right,lightblue,lightpink);
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(to right,pink,lightblue);
+    color: black;
+}
